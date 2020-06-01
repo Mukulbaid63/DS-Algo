@@ -6,9 +6,9 @@ public class MainClass {
 		
 		MyStack<Integer> stack = new MyStack<>();
 		
-		int popped = stack.pop();// delete the top element of the stack
+		int popped = stack.pop();// delete the top element of the stack.
 		
-		System.out.println(popped);//print the last popped element
+		System.out.println(popped);//print the last popped element from the stack
 		
 		System.out.println(stack.peek());//print the top element of the stack
 	}
