@@ -32,7 +32,7 @@ public class SubarrayWithZeroSum {
 			set.add(sum);
 			sum += element;
 			if(set.contains(sum-k)) {//Zero sum will only exist if the cumulative sum of the elements excluding the current element
-				                  //and after including the current element are equal
+				                  //and after including the current element are equal and immediately take the control out of the loop
 				found = true;
 				break;
 			}
