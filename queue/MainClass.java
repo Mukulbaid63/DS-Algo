@@ -6,13 +6,13 @@ public class MainClass {
 
 		MyQueue<Integer> mq = new MyQueue<>();
 		
-		mq.enqueue(12);
+		mq.enqueue(12);//add the element to the end of queue
 		mq.enqueue(2);
 		mq.enqueue(123);
 		mq.enqueue(45);
 		
 		
-		System.out.println(mq.dequeue());
+		System.out.println(mq.dequeue());//print the first element the queue and remove it from the queue
 		System.out.println(mq.dequeue());
 		System.out.println(mq.dequeue());
 		System.out.println(mq.dequeue());
