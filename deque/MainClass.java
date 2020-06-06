@@ -8,7 +8,7 @@ public class MainClass {
 	
 		ArrayDeque<Integer> ad = new ArrayDeque<>();
 		
-		//method to push the element in the doubly ended queue
+		//method to push the element in the doubly ended queue.
 		ad.push(12);
 		ad.push(23);
 		ad.push(34);
